@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap");
+
+/* International Orange Aerospace: #ff4e00 
+   Charcoal : #2a3d45 
+   Selective Yellow : #ffba08 
+   Pewter Blue: #9cafb7 
+   Light Green : #7cea9c 
+  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  background-position-x: 100%;
+  background-position-y: 50%;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #ff4e00;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #2a3d45;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.nav-link {
+  display: flex;
+  color: #ffba08;
+  text-decoration: #7cea9c;
+  margin: 0 20px;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+/*Features*/
+
+.feature {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px tomato;
+  margin: 20px 1.7%;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+.feature h2 {
+  font-size: 30px;
+}
+.feature p {
+  font-size: 15px;
+}
